@@ -14,3 +14,7 @@ The ECG should be in 250 Hz recording with voltage unit = mV.
 # Weights
 The model weights are not publicly available because it may contain patient information.
 The web interface to run the full model is available at http://onebraveideaml.org/
+
+# Model architecture
+The model consists of 20 layers of multi_conv2D module, which consists of 3 different-depth 2D convolutional layers.
+The model has 258,754,113 parameters (258,546,625 trainable)
